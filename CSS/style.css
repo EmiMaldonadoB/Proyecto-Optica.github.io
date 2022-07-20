@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+/*selectores de etiqueta */
+
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(255, 255, 255);
+    
+    
+}
+
+.header{
+    margin-right: 50px;
+    width: 95vw;
+    background: rgb(255,218,0);
+    background: linear-gradient(0deg, rgba(255,218,0,1) 0%, rgba(241,234,134,1) 50%, rgba(255,244,0,1) 100%);
+    border-style: solid;
+    border-color: rgb(226, 7, 7);
+    border-radius: 15px 0px 15px 0px;
+    border-width: 3px;
+    box-shadow: 3px 3px 0 black;
+    -webkit-box-shadow: 15px 22px 25px -8px rgba(0,0,0,0.48);
+    -moz-box-shadow: 15px 22px 25px -8px rgba(0,0,0,0.48);
+    box-shadow: 15px 22px 25px -8px rgba(0,0,0,0.48);
+    
+}
+
+.footerSize{
+    width: 100vw;
+}
+
+.padd-1{
+    padding: 15px;
+}
+
+.padd-3{
+    padding: 50px;
+}
+
+.padd-4{
+    padding: 75px;
+}
+
+.mg-l{
+    margin: 100px;
+}
+
+nav a:hover{
+    color: red;
+    text-decoration: overline;
+    transform: translateY(5px);
+    text-shadow: -1px 6px 2px rgba(3,3,3,0.36);
+    transition: transform .8s;
+    
+}
+
+.text-shadow{
+    border-style: solid;
+    border-radius: 15px 0px 15px 0px;
+    border-color: red;
+    background: rgb(255,218,0);
+    background: linear-gradient(0deg, rgba(255,218,0,1) 0%, rgba(241,234,134,1) 50%, rgba(255,244,0,1) 100%);
+    -webkit-box-shadow: 15px 22px 25px -8px rgba(0,0,0,0.48);
+    -moz-box-shadow: 15px 22px 25px -8px rgba(0,0,0,0.48);
+    box-shadow: 15px 22px 25px -8px rgba(0,0,0,0.48);
+}
+
+.h3-maps{
+    
+    background: rgb(255,218,0);
+    background: linear-gradient(0deg, rgba(255,218,0,1) 0%, rgba(241,234,134,1) 50%, rgba(255,244,0,1) 100%);
+    padding: 30px;
+    
+    border-style: solid;
+    border-color: rgb(226, 7, 7);
+    border-radius: 15px 0px 15px 0px;
+    border-width: 3px;
+    font-size: 20px;
+    text-decoration: none;
+    box-shadow: 3px 3px 0 black;
+    -webkit-box-shadow: 15px 22px 25px -8px rgba(0,0,0,0.48);
+    -moz-box-shadow: 15px 22px 25px -8px rgba(0,0,0,0.48);
+    box-shadow: 15px 22px 25px -8px rgba(0,0,0,0.48);
+   
+}
+
+
+.footer{
+    width: 100vw;
+    padding: 15px;
+    margin-right: 150px;
+    grid-area: footer;
+    display: flex;
+    background-color: black;
+    border-style: double;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    border-style: solid;
+    border-color: rgb(226, 7, 7);
+    border-radius: 15px 0px 15px 0px;
+    border-width: 3px;
+}
+
+.footerSize{
+    padding-left: 100px;
+}
+
+.gap{
+    display: flex;
+    justify-content: space-around;
+}
+footer a img{
+    height: 30px;
+    width: 30px;
+    text-align: left;
+}
+
+.text-white{
+    color: white;
+}
