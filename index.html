@@ -10,12 +10,12 @@
   </head>
   <body>
 
-    <div class="container text-center">
+    <div class="container text-center MxWidth">
               <div class="row">
                 <div class="col">
                 <!-- empieza header-->
                 <header>
-                  <nav class="navbar navbar-expand-lg header">
+                  <nav class="navbar navbar-expand-lg header fontSize2">
                     <div class="container-fluid">
                       <a class="navbar-brand" href="/index.html">
                         <img src="./imagenes/LogoOptica.png" alt="Logo de Optica Birle">
@@ -25,22 +25,23 @@
                       </button>
                       <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="./pages/productos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Productos
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="./pages/productos.html">Optica</a></li>
+                              <li><a class="dropdown-item" href="./pages/productos.html">Audiologia</a></li>
+                              <li><a class="dropdown-item" href="./pages/productos.html">Ortopedia</a></li>
+                            </ul>
+                          </li>
                           <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./pages/productos.html"> Productos </a>
+                            <a class="nav-link " aria-current="page" href="./pages/servicios.html"> Servicios </a>
                           </li>
                           <li class="nav-item">
                             <a class="nav-link" href="./pages/nosotros.html"> Nosotros </a>
                           </li>
-                          <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="./pages/servicios.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Servicios
-                            </a>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="./pages/servicios.html">Optica</a></li>
-                              <li><a class="dropdown-item" href="./pages/servicios.html">Audiologia</a></li>
-                              <li><a class="dropdown-item" href="./pages/servicios.html">Ortopedia</a></li>
-                            </ul>
-                          </li>
+                          
                           <li class="nav-item">
                             <a class="nav-link" href="./pages/contacto.html"> Contacto </a>
                           </li>
@@ -59,11 +60,11 @@
 
 
                       <div class="row padd-3">
-                        <div class="col-4 padd-3">  <!-- Texto Intro -->
+                        <div class="col-sm-4 padd-3 fontSize3">  <!-- Texto Intro -->
                           <p> Somos profesionales en cuidar la salud visual de cada uno de nuestros pacientes, con lentes y exámenes de primera calidad -</p>
                           <p> - En Óptica Birle nos preocupamos por atender al cliente en un ambiente de cordialidad y respeto. Visítenos, estamos en la localidad de San Juan -</p>
                         </div>
-                        <div class="col-8">
+                        <div class="col-sm-8">
                                 <!-- Empieza Slider -->
                           <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
                             <div class="carousel-indicators">
@@ -101,47 +102,52 @@
                         <!-- termina Slider -->
                         <!-- maps -->
                         <div class="row padd-4">
-                          <div class="col-6">
+                          <div class="col-sm-5">
                             <ul class="list-adress">
-                              <h3 class=" h3-maps"> DONDE ENCONTRARNOS? </h3>
-                              <div class="padd-3">
+                              <h3 class=" h3-maps fontSize2"> DONDE ENCONTRARNOS? </h3>
+                              <div class="padd-3 fontSize3">
                                   <li>  - Mendoza 118 (s) - SAN JUAN - </li>
                                   <li>  - Av. Libertador 137 - SAN JUAN - </li>
                               </div>
                           </ul>
                           </div>
-                          <div class="col-6">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3400.5793374674527!2d-68.52799908518985!3d-31.535711709188657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9681402833fe7773%3A0x36d48375dc465c18!2sMendoza%20Sur%20118%2C%20J5402GUD%20San%20Juan!5e0!3m2!1ses-419!2sar!4v1655163400847!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                          <div class="col-sm-7">
+                            <iframe class="MAPS" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3400.5793374674527!2d-68.52799908518985!3d-31.535711709188657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9681402833fe7773%3A0x36d48375dc465c18!2sMendoza%20Sur%20118%2C%20J5402GUD%20San%20Juan!5e0!3m2!1ses-419!2sar!4v1655163400847!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                           </div>
 
                           <!-- maps -->
                           <!-- footer -->
-                          <div class="row" id="footerSize">
-                            <div class="col-12 ">
-                                  <footer class="footer mg-l ">
-                                    <h5 class="text-white"> Copyright 2022 </h5>
-                                    <div class="footer-redes">
-                                            <p class="text-white"> SEGUINOS EN NUESTRAS REDES </p>
-                                            <div class="gap">
-                                            <a href="https://facebook.com/optica.birle"  target="_blank">
-                                                <img src="./Imagenes/facebook.png" alt="">
-                                            </a>
-                                            <a href="https://twitter.com" target="_blank">
-                                                <img src="./Imagenes/twitter.png" alt="">
-                                            </a>
-                                            <a href="https://instagram.com/opticabirle" target="_blank">
-                                                <img src="./Imagenes/instagram.png" alt="" width="60px">
-                                            </a>
-                                          </div>
-                                    </div>
-                                </footer>
-                              </div>
-                          </div>
+                          
+                          
                         </div>
 
-
-
                           <!-- footer -->
+                        <div class="row MxWidth" id="footerSize">
+                          <div class="col-sm-12 ">
+                                <footer class="footer mg-l ">
+                                  <h5 class="text-white"> Copyright 2022 </h5>
+                                  <div class="footer-redes">
+                                          <p class="text-white"> SEGUINOS EN NUESTRAS REDES </p>
+                                          <div class="gap">
+                                          <a href="https://facebook.com/optica.birle"  target="_blank">
+                                              <img src="./Imagenes/facebook.png" alt="">
+                                          </a>
+                                          <a href="https://twitter.com" target="_blank">
+                                              <img src="./Imagenes/twitter.png" alt="">
+                                          </a>
+                                          <a href="https://instagram.com/opticabirle" target="_blank">
+                                              <img src="./Imagenes/instagram.png" alt="" width="60px">
+                                          </a>
+                                        </div>
+                                  </div>
+                              </footer>
+                            </div>
+                        </div>
+                        
+
+
+
+                          <!--termina footer -->
                       
     </div>
 
