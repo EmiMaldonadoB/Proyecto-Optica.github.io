@@ -39,10 +39,7 @@ body{
 .padd-4{
     padding: 75px;
 }
-.MAPS{
-    width: 50vw;
-    height: 50vh;
-}
+
 .mg-l{
     margin: 100px;
 }
@@ -72,12 +69,13 @@ nav a:hover{
     background: rgb(255,218,0);
     background: linear-gradient(0deg, rgba(255,218,0,1) 0%, rgba(241,234,134,1) 50%, rgba(255,244,0,1) 100%);
     padding: 30px;
-    
+    width: inherit;
+    height: 15vh;
     border-style: solid;
     border-color: rgb(226, 7, 7);
     border-radius: 15px 0px 15px 0px;
     border-width: 3px;
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: none;
     box-shadow: 3px 3px 0 black;
     -webkit-box-shadow: 15px 22px 25px -8px rgba(0,0,0,0.48);
@@ -137,10 +135,13 @@ footer a img{
     color: white;
 }
 
+.title-tab{
+    font-size: 30px;
+}
 
 .ColFlex{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
 
 }
@@ -174,7 +175,7 @@ footer a img{
     border-radius: 30px 0px 30px 0px;
     border-color: rgb(226, 7, 7);
     width: 100%;
-    height: 70%;
+    height: 100%;
    
     
 }
@@ -187,7 +188,7 @@ footer a img{
     border-style: groove;
     border-radius: 30px 0px 30px 0px;
     border-color: rgb(226, 7, 7);
-    width: 50vw;
+    width: 40vw;
     height: auto;
     display: flex;
     justify-content: center;
@@ -206,14 +207,78 @@ footer a img{
     border-color: rgb(226, 7, 7);
 }
 
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
 
 .contacto{
     border-radius: 4px;
     border-style: groove;
     border-radius: 30px 0px 30px 0px;
     border-color: rgb(226, 7, 7);
-   
+    width: 70vw;
     padding: 20px;
-    margin: 100px;
+
+}
+
+
+
+
+.Form-contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-anim{
+    margin: 20px;
+    font-style: italic;
+    font-size: 70px;
+    
+    
+}
+
+.title-anim:hover{
+    transform: translateX(20px);
+    text-shadow: 0px 0px 20px rgb(5, 5, 5);
+    transition: transform 1s;
+}
+
+.form-place{
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+}
+
+.list-adress{
+    width: 30vw;
+}
+
+.maps{
+    width: 40vw;
+}
+
+@media screen and (max-width: 552px){
+
+    .list-adress{
+        width: inherit;
+    }
+
+    .maps{
+        width: 90vw;
+    }
+
+    .table-prod-arm{
+       
+        width: 60vw;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        
+
     
 }
