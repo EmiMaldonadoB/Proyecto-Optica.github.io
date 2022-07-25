@@ -315,6 +315,13 @@ nav a:hover{
         justify-content: space-evenly;
     }
 
+    .container-prod{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     .header{
         width: 90vw;
     }
@@ -332,12 +339,13 @@ nav a:hover{
     }
 
     .table-ortopedia{
-        width: 50vw;
+        margin-left: 0%;
+        width: 80vw;
         
     }
 
     .table-fonoau{
-        width: 50vw;
+        width: 60vw;
     }
 
     .table-prod-arm{
