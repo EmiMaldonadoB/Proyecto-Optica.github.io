@@ -10,6 +10,7 @@ body{
 
 .header{
     margin-right: 0px;
+    
     width: 95vw;
     background: rgb(255,218,0);
     background: linear-gradient(0deg, rgba(255,218,0,1) 0%, rgba(241,234,134,1) 50%, rgba(255,244,0,1) 100%);
@@ -42,6 +43,12 @@ body{
 
 .mg-l{
     margin: 100px;
+}
+
+
+.container-sm{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 nav a:hover{
@@ -125,9 +132,10 @@ nav a:hover{
     display: flex;
     justify-content: space-around;
 }
-.footer a img{
-    
-    text-align: left;
+
+.gap img{
+    width: 10vw;
+    height: 10vh;
 }
 
 
@@ -162,8 +170,7 @@ nav a:hover{
     border-style: groove;
     border-radius: 30px 0px 30px 0px;
     border-color: rgb(226, 7, 7);
-    width: 50vw;
-    height: 45vh;
+    
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -179,8 +186,7 @@ nav a:hover{
     border-style: groove;
     border-radius: 30px 0px 30px 0px;
     border-color: rgb(226, 7, 7);
-    width: 50vw;
-    height: 45vh;
+    
    
     
 }
@@ -203,8 +209,7 @@ nav a:hover{
 .table-fonoau{
     display: flex;
     flex-direction: column;
-    width: 50vw;
-    height: 40vh;
+    
     background: rgb(255,218,0);
     background: linear-gradient(0deg, rgba(255,218,0,1) 0%, rgba(241,234,134,1) 50%, rgba(255,244,0,1) 100%);
     border-radius: 4px;
@@ -299,7 +304,7 @@ nav a:hover{
 }
 
 
-@media screen and (max-width: 370px){
+@media screen and (max-width: 412px){
    
     figure{
         font-size: 10px;
@@ -307,6 +312,7 @@ nav a:hover{
 
     .container-sm{
         display: flex;
+        justify-content: space-evenly;
     }
 
     .header{
@@ -316,17 +322,26 @@ nav a:hover{
         width: 40vw;
     }
 
+    .text-gray{
+        font-size: 15px;
+        padding: 15px;
+    }
+
     .title-anim{
         font-size: 30px;
     }
 
-    .table-prod-arm{
-        width: 0vw;
-        padding: 10px;
+    .table-ortopedia{
+        width: 50vw;
+        
+    }
+
+    .table-fonoau{
+        width: 50vw;
     }
 
     .table-prod-arm{
-        
+        padding: 10px;
         width: 60vw;
         height: auto;
         display: flex;
